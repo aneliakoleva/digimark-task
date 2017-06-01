@@ -1,0 +1,13 @@
+@import "./hamburgers.css";
+@import "partials/buttons.scss";
+@import "partials/navigation.scss";
+@import "partials/forms.scss";
+@import "base/typography.scss";
+@import "partials/footer.scss";
+@import "partials/articles.scss";
+html {
+    
+    @media screen and (max-width: 768px) {
+         font-size: 8.5px;
+    }
+}

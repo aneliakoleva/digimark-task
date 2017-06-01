@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <header id="site-header">
+          <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+
+                <button class="hamburger hamburger--spring" type="button" data-toggle="collapse" data-target="#navbar">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-wrapper" id="navbar">
+                <ul class="nav navbar-nav header-menu-items">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact us</a></li>
+
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+      </header>
+    <main class="background-page">
+        <div class="main-heading">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+            <h2>Ut tempor dignissim sem ac tempus</h2>
+        </div>
+        <img class="dino" src="images/dude-1.png" srcset="images/dude-1@2x.png 2x" alt="" />
+        <div class="main-buttons">
+            <div class="button-wrapper">
+                <button type="button" class="btn btn-primary">Register interest</button>
+                <button type="button" class="btn btn-primary">Find out more</button>
+            </div>
+        </div>
+    </main>
+    <section class="article-dino-wrapper">
+        <article class="container article-dino">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+            <div class="row">
+                <div class="col-sm-6 article-dino-col">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections </p>
+                </div>
+                <div class="col-sm-6 article-dino-col">
+                    <img src="images/dude-2.png" srcset="images/dude-2@2x.png 2x" alt=""/>
+                </div>
+            </div>
+        <article>
+    </section>
+    <hr>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="sucess-message">
+                    <h2>Thank you for your message!</h2>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <form class="form-contact" id="contact-form">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group form-inline-inputs">
+                              <label for="name">Your name *</label>
+                              <input type="name" class="form-control" id="name" placeholder="Enter your name here" data-parsley-trigger="keyup" data-parsley-minlength="3" data-parsley-maxlength="100" data-parsley-pattern="^[a-zA-Z ]+$" required="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group form-inline-inputs">
+                            <label for="email">Your email *</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email here" data-parsley-trigger="change" required="">
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <div class="form-group">
+                            <label></span>Reason *</label>
+                            <select class="form-control selectpicker show-menu-arrow" required="">
+                                <option value="">Please select an option</option>
+                                <option value="1">Sales request</option>
+                                <option value="2">Press releases</option>
+                                <option value="3">Website feedback</option>
+                                <option value="4">Other enquiries</option>
+                           </select>
+                          </div>
+                          <div class="form-group">
+                              <lable class="textarea-title">Your message *</lable>
+                              <textarea rows="8" class="textarea-field form-control" placeholder="Enter your message here" data-parsley-trigger="keyup" data-parsley-minlength="10" data-parsley-maxlength="500" data-parsley-minlength-message="You need to enter at least a 10 character comment.." required=""></textarea>
+                          </div>
+                          <div class="form-group">
+                              <div class="col-sm-12 submit-form">
+                                <button type="submit" class="btn btn-default btn-submit-form">Send your message</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="container">
+                <div class="social-wrapper">
+                    <div class="copyright">
+                        <span>2017 &copy; Lorem ipsum dolor sin amet</span>
+                    </div>
+                    <div class="social">
+                        <a href="javascript:;"><img src="images/fb.png" srcset="images/fb@2x.png 2x"></a>
+                        <a href="javascript:;"><img src="images/tw.png" srcset="images/tw@2x.png 2x"></a>
+                        <a href="javascript:;"><img src="images/in.png" srcset="images/in@2x.png 2x"></a>
+                        <a href="javascript:;"><img src="images/gp.png" srcset="images/gp@2x.png 2x"></a>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

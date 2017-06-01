@@ -1,0 +1,25 @@
+.main-heading {
+    position: absolute;
+    width: 100%;
+    top: 8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #f6f7f2;
+    padding: 0 2rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.33);
+
+    @media screen and (max-width: 768px) {
+        position: relative;
+        top: auto;
+        padding-top: 11rem;
+    }
+
+    h1 {
+        margin-bottom: 3rem;
+        font-size: 3.6rem;
+
+    }
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+}

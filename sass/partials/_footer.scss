@@ -1,0 +1,33 @@
+footer {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+
+    .social-wrapper {
+        @media screen and (max-width: 768px) {
+            text-align: center;
+        }
+    }
+    .copyright {
+        float: left;
+
+        @media screen and (max-width: 768px) {
+            float: none;
+            clear: both;
+        }
+    }
+    .social {
+        float: right;
+
+        @media screen and (max-width: 768px) {
+            float: none;
+            clear: both;
+        }
+
+        img {
+            margin-right: 0.8rem;
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 2rem;
+        }
+    }
+}

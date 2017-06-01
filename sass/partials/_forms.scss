@@ -1,0 +1,53 @@
+.form-contact {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+
+    &.active {
+        display: none;
+    }
+
+    .form-control {
+        min-height: 4.5rem;
+        height: auto;
+        border-radius: 4px;
+
+    }
+    .textarea-title {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .textarea-field {
+        width: 100%;
+        border-radius: 4px;
+        height: auto;
+    }
+}
+.submit-form {
+        text-align: center;
+        margin-top: 3rem;
+    .btn-submit-form {
+            background-color: #00bad5;
+            color: white;
+            height: 5rem;
+            width: auto;
+            font-size: 1.6rem;
+            padding: 1.5rem 3.8rem;
+    }
+}
+.parsley-errors-list {
+    color: red;
+    list-style-type: none;
+    padding: 1rem 0;
+    clear: both;
+}
+.sucess-message {
+    text-align: center;
+    color: green;
+    display: none;
+
+    &.active{
+        display: block;
+    }
+}
